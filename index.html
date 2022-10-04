@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art With Pixels</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div>
+            <img src="./images/megaman.png" class="title-image-left">
+            <h1 class="main_title">Art With Pixels</h1>
+            <img src="./images/samus.png" class="title-image-right">
+           
+        </div>
+        <aside class="save-slot">
+            <h2>Save Project</h2>
+            <button class ="save1">Slot 1</button>             
+            <button class ="save2">Slot 2</button>             
+            <button class ="save3">Slot 3</button>             
+        </aside>  
+        <div class="options"> 
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" value="#000000">  
+            <input type="text" class="mesh-size" placeholder="Size">  
+            <button class ="generate">Generate</button> 
+        </div>                       
+        <aside class="load-slot">
+            <h2>Load Project</h2>
+            <button class ="load1">Slot 1</button>             
+            <button class ="load2">Slot 2</button>             
+            <button class ="load3">Slot 3</button>             
+        </aside>                      
+    
+        <section class="meshPixels"></section>
+        <script src="./script/script.js"></script>
+    </main>
+</body>
+</html>
